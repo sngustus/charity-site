@@ -8,10 +8,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 12px;
+    color: white;
+}
+
+.nav-logo {
+    flex: 1 1 20%;
+    display: flex;
 }
 
 .nav-links {
-    flex: 1 1 80%;
+    flex: 1 1 65%;
     display: flex;
     justify-content: space-around;
     align-items: last baseline;
@@ -90,6 +96,16 @@ button:hover {
     color: #211746;
 }
 
+.section h1 {
+    color: darkgray;
+    font-size: 24px;
+}
+
+.section h2 {
+    color: #430098;
+    font-size: 32px;
+}
+
 .img-container {
     width: 40%;
 }
@@ -115,6 +131,10 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     background-color: #211746;
+    color: white;
+}
+
+#init-section h1 {
     color: white;
 }
 
